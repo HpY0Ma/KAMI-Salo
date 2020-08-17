@@ -68,25 +68,25 @@ import static me.zeroeightsix.kami.DiscordPresence.setCustomIcons;
 )
 public class KamiMod {
 
-    public static final String MODNAME = "KAMI Blue";
-    public static final String MODID = "kamiblue";
+    public static final String MODNAME = "KAMI Salo";
+    public static final String MODID = "kamisalo";
     public static final String VER_FULL_BETA = "v1.1.7-beta"; // this is changed to v1.x.x-commit for debugging by automatic builds
     public static final String VER_SMALL = "v1.1.7-beta"; // shown to the user, unchanged
     public static final String VER_STABLE = "v1.1.6"; // used for update checking
 
-    public static final String APP_ID = "638403216278683661";
+    public static final String APP_ID = "743698456383717386";
 
     public static final String DOWNLOADS_API = "https://kamiblue.org/api/v1/downloads.json";
     public static final String DONATORS_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/donators.json";
     public static final String CAPES_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/capes.json";
-    public static final String GITHUB_LINK = "https://github.com/kami-blue/";
-    public static final String WEBSITE_LINK = "https://kamiblue.org";
+    public static final String GITHUB_LINK = "https://github.com/HpY0Ma/KAMI-Salo";
+    public static final String WEBSITE_LINK = "https://discord.gg/nuu63QS";
 
-    public static final String KAMI_KANJI = "\u30ab\u30df\u30d6\u30eb";
+    public static final String KAMI_KANJI = "\u795e\u30b5\u30ed";
     public static final char colour = '\u00A7';
     public static final char separator = '\u23d0';
 
-    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMIBlueConfig.json";
+    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMISaloConfig.json";
 
     public static final Logger log = LogManager.getLogger("KAMI Blue");
 
@@ -285,7 +285,7 @@ public class KamiMod {
         return commandManager;
     }
 
-    public void updateCheck() {
+  public void updateCheck() {
         try {
             KamiMod.log.info("Attempting KAMI Blue update check...");
 

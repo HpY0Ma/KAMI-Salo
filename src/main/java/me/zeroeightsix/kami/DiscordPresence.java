@@ -70,8 +70,8 @@ public class DiscordPresence {
         DiscordPresence.presence.details = details;
         DiscordPresence.presence.state = state;
         if (image) {
-            DiscordPresence.presence.largeImageKey = "kami";
-            DiscordPresence.presence.largeImageText = "kamiblue.org";
+            DiscordPresence.presence.largeImageKey = "salo";
+            DiscordPresence.presence.largeImageText = "https://discord.gg/nuu63QS";
         }
         DiscordPresence.rpc.Discord_UpdatePresence(DiscordPresence.presence);
     }
