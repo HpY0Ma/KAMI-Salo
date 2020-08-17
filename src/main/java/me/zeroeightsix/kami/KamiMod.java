@@ -78,7 +78,7 @@ public class KamiMod {
 
     public static final String DOWNLOADS_API = "https://kamiblue.org/api/v1/downloads.json";
     public static final String DONATORS_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/donators.json";
-    public static final String CAPES_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/capes.json";
+    public static final String CAPES_JSON = "https://raw.githubusercontent.com/HpY0Ma/KAMI-Salo/master/assets/donators.json";
     public static final String GITHUB_LINK = "https://github.com/HpY0Ma/KAMI-Salo";
     public static final String WEBSITE_LINK = "https://discord.gg/nuu63QS";
 
